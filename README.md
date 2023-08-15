@@ -1,2 +1,2 @@
 # AI-CareerGuide-DocumentationRepo
-Our AI Career Guide Software
+AI Career Guide Software
