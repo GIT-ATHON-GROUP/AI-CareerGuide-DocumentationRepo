@@ -98,4 +98,5 @@ One of the key advantages of the AI career guide is its ability to offer educati
 
 Moreover, the AI career guide incorporates personalised recommendations based on learners' individual strengths and aptitudes. Through advanced algorithms, the system can analyse learners' profiles and provide tailored career suggestions that align with their unique attributes, fostering a sense of purpose and direction.
 
-
+## 7. POSTER
+![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/AI%20Career%20Guide%20Software%20Poster.png)
