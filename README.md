@@ -1,102 +1,220 @@
 # AI Career Guide Software Documentation
 ## 1. BUSINESS BACKGROUND
 
-The Department of Education has recognised the need to enhance career guidance for students, and they've looked for a company to leverage AI technology. This partnership is aimed at integrating AI platforms into educational institutions nationwide, bridging the gap between education and employment. By offering personalised job and career suggestions, skill-building resources, and helping individuals to make informed career decisions.
+The Department of Education has recognised the need to enhance career guidance for high school learners in government schools across South Africa, and they've asked GIT-ATHON group to develop an A.I. Career Guide Chatbot that will assist learners in making informed career decisions. This partnership aims to integrate A.I. platforms into educational institutions nationwide, bridging the gap between education and employment. By offering personalised job and career suggestions, 
+skill-building resources, and helping individuals make informed career decisions. The A.I. Career Guide Chatbot is a robot powered by neural network models, unsupervised machine learning algorithms, and natural language processing (NPL).
 
 ### 1.1. Vision
 
 - Empowering high school learners through guided career navigation.
 - Enabling growth through guided career exploration.
 
+
 ### 1.2. Mission
 
-The mission of the AI software is to provide high school learners with a transformative career journey by offering personalised career guidance software. We aim to equip learners with the insights needed to make informed decisions, navigate career transitions, and achieve their professional aspiration.
+The mission of the A.I. solution is to provide high school learners with a transformative career journey by offering personalised career guidance software. We aim to equip learners with the insights needed to make informed decisions, navigate career transitions, and achieve their professional aspirations.
 
-## 2. BUSINESS OBJECTIVES
+## 2. IDENTIFY THE PROBLEM
 
-- Help people identify and find jobs that match their interests and skills.
--	Reduce the time and effort required for research and research activities.
--	Gives personal advice based on personal strengths and goals.
--	Taking pride in personal work and success as they will follow their passions.
--	Enhance workforce diversity and inclusion by recommending jobs that match an individual's unique abilities.
--	 Reduce the cost and complexity of career counseling programs by providing digital solutions.
--	Analysis of skill gaps and suggestions for skill development.
+The A.I. Career Guide has been developed to tackle the pressing issue of career exploration among high school learners. The existing traditional career guidance events have contributed to a rise in school dropouts as learners feel demotivated due to the limited career options presented to them. These events cater only to a select group of individuals, neglecting the diverse interests and aspirations of many learners.
 
-## 3. REQUIREMENTS SPECIFICATION
-### Definition of Requirements
+- **Lack of information**
+  
+The A.I. career guide holds the potential to revolutionise the education industry. By utilising unsupervised machine learning algorithms, Natural Processing Language (NPL) and Neural Network Models, the system encompasses a wide array of career libraries. This enables the system to effectively group careers based on learners' specific interests and provides them with a comprehensive range of options to consider. 
 
-System requirements are the necessary specifications that are needed for an AI career guide system to be fully functional and complete. Requirements include natural language processing, unsupervised learning, Nearest Neighbors algorithm, Neural Network Model, K-Means Clustering, a learning loop, learning from interaction, career insights, skill assessment, career recommendation, privacy and data security, and a fallback mechanism. Acquiring all of the above-listed requirements will enable the system to accurately recommend relevant careers.
+- **Career selection assistance**
 
-### Requirements Master List
-**_Abbreviation and Definitions_**
+One of the key advantages of the A.I. career guide is its ability to offer educational content that equips learners with valuable information about various career paths. By doing so, it empowers learners to make informed decisions and pursue their goals with confidence. 
 
-**FR** = Functional requirements
+- **Biases**
+  
+The career guide will assist learners with technical skills that are not covered in the conventional education systems, covering various industries.
 
-**NFR** = Non-functional requirements
+- **Cost** 
+The system will assist disadvantaged learners who are not capable of attending career guidance expose.
 
-**SR** = Security requirements
+## 3. 3. BENEFITS OF SOLVING THE PROBLEM
 
-### Functional Requirements
-**_Functional requirements_** define what the system should do, including its inputs, processes, outputs, and interactions.
+- **Availability:** The system will and should be available all day every day, This will enable students and Learners to be able to access it at any given time and it will also give the learners the assistance and support they will need.
+  
+- **Scalability:** The system can handle multiple queries with learners simultaneously.
+  
+- **Increasing Career options:** Learners will be exposed to a variety of career paths, therefore reducing the saturation in different career paths.
+  
+- **Reducing Cost:** If a learner does not have the time, funds, and access to a career guidance counsellor, the system will be a perfect alternative
 
-**FR1:** ***User Profile:*** To use the AI Career Guide system, users must create a profile and provide their personal information, including their name, email address, and password. This information will be securely stored, and users can access the system with a username and password each time they use it.
+## 5. THE PURPOSE FOR OUR AI SOLUTION
 
-**FR2:** ***Natural Language Processing:*** The AI Career Guide system will capture and interpret user inputs in natural language.
+The purpose of the A.I. Career Guide software is to help learners make informed career-related decisions based on their skills, preferences, strengths and 
+weaknesses. This partnership is aimed at integrating A.I. platforms into educational institutions nationwide, bridging the gap between education and employment. By offering personalised job and career suggestions, skill-building resources, and helping individuals make informed career decisions.
+      
+## 6. MACHINE LEARNING APPROACH
+Machine Learning is defined as the study of computer programs that leverage algorithms and statistical models to learn through inference and patterns without 
+explicit programming.
 
-**FR3:** ***Unsupervised Machine Learning:*** The system will be capable of learning from large amount of text data without human supervision, to continuously improve its responses and knowledge base.
+## Type of Machine Learning:
+- **Unsupervised Machine Learning**
+  
+It is a type of machine learning that utilises unlabelled data to train machines. The model then learns from this data, creates a pattern, and returns an output. It is commonly used to solve clustering and association problems. Our system utilises this technique, enabling learners to provide their interests, strengths, and weaknesses. The model then expertly makes connections with the data and correlates it to prospective career paths.
 
-**FR4:** ***Nearest Neighbors algorithm:*** The Nearest Neighbors algorithm will serve a valuable function in the AI career guide software as it will provide personalised recommendations and insights to learners based on similarities to their profile and preferences. Through the use of nearest neighbour algorithms, the system will be able to do skill gap analysis. By comparing the skills of a user with those of others who have successfully achieved the desired roles. This will enable learners to focus on acquiring the specific skills needed to excel in their chosen career path.
+- **Natural Language Processing (NLP)**
+  
+NLP is an A.I. tool that allows computers to understand and interpret human language. The system can find and retrieve relevant information from a large text. This will be beneficial for our system as it can retrieve the necessary information from the paragraphs that users enter.
 
-**FR5:** ***Neural Network Model:*** A neural network model will play an important role in the AI career guide software by enabling it to analyse complex relationships within career-related data, make accurate predictions, and provide personalised recommendations. Using neural networks, the AI Career software will process large amounts of data from users' profiles, including skills and interests. The model will identify patterns and relationships among these variables to create a map of a user's strengths, preferences, and potential career paths.
+- **The K-means algorithm**
+  
+To provide appropriate career paths, our system must be capable of clustering diverse data using the K-means learning algorithm. The K-means algorithm is a type of unsupervised learning that clusters data according to their similarities. Our system will utilise this algorithm to group learners' interests, strengths, and weaknesses into distinct career paths.
 
-**FR6:** ***K-Means Clustering:*** The AI Career Guide system will use K-Means clustering, primarily focusing on grouping career-related data into clusters based on similarity. By using K-means clustering, the software can identify distinct user groups with similar characteristics. Each cluster will represent a different career interest or skill set, enabling more targeted recommendations.
+## 7. DATA (REQUIREMENTS)
 
-**FR7:** ***Career Recommendation:*** The user will provide information to the system, which will be used to provide suitable career path suggestions. The system will offer a space where the user can input a brief paragraph about their interests and skills. Additionally, there will be a chart with a list of strengths and weaknesses, where the user will rate their abilities on a scale of 1-5. Based on this crucial information, the system will generate career path recommendations best suited to the user's skills and interests.
+- **Skills & Career Data:** The system collects and group different type of skills data (soft and hard skills) using K-means clustering and store them in a local database. The system will then utilise machine learning algorithms and data analysis to refine career recommendations based on user interactions and outcomes.
+  
+- **Dimensionality Reduction:** The system uses this technique to reduce nonrelevant features by using the K-nearest neighbour algorithm to find similar careers based on learners' interests and skills.
+  
+- **User Interaction Data:** The user will type a sentence in a textbox on the interface, establishing connections between specific skills and careers or 
+industries based on the learner's interests. Then, it will store the feedback on the learner profile for future reference.
 
-**FR8:** ***Career Insight:*** Provide insights on various career paths, job roles, and trends based on available data.
+- **Contextual Data Understanding:** The guide will use Natural Language Processing (NLP) to interpret the text entered by the learner on the textbox and compare it with the careers and skills on the learner's profile then provide personalised recommendations to the learner.
+  
+- **Training Data:** During the training stage developers were constantly creating lists of questions that they ask the system until it showed readiness by providing accurate feedback. The machine learnt from this stage until it gave accurate responses.
 
-**FR9:** ***Speech Recognition:*** For individuals who have difficulty articulating their interests in writing, our system will include a speech recognition feature to aid them in conveying their passions.
+## 8. CONSTRAINTS AND RISKS
+### 8.1. Constraints
+- **Data Availability:** The accuracy of career recommendations will depend on the quality and quantity of data available for various career options.
+  
+- **Algorithm Complexity:** The balance of clustering and classification algorithms with real-time performance can be a challenge.
+  
+- **Limited learning:** The A.I. Career Guide's ability to learn can be limited by the scope of data it's trained on and may not immediately capture changing 
+job market trends.
 
-### AI strategies:
-Our system will utilize three AI strategies: unsupervised machine learning, natural language processing and neural network model
-Unsupervised learning is a type of machine learning that utilizes unlabeled data to train machines. The model then learns from this data, creates a pattern, and returns an output. It is commonly used to solve clustering and association problems. Our system utilizes this technique, enabling learners to provide their interests, strengths, and weaknesses. The model then expertly makes connections with the data and correlates it to prospective career paths.
+- **Interpersonal Evaluation:** Assessing interpersonal skills accurately through algorithms can be complex, as some skills require careful consideration to 
+fully understand.
 
-Natural language processing is an AI tool that allows computers to understand and interpret human language. One of its components is the ability to convert spoken language into text using speech recognition. This feature will benefit our system by aiding its speech recognition capabilities. The system can find and retrieve relevant information from a large text. This will be beneficial for our system as it can retrieve the necessary information from the paragraphs that users enter.
+- **Budget:** The hardware required for the development of the system may be costly.
+  
+- **Time:** The Chabot is a complicated system and requires a long time to be able to function best.
+  
+### 8.2. Risks
+- **Inaccurate recommendations:** If the clustering and classification algorithms are not properly trained, the software could provide irrelevant career 
+suggestions.
 
-To provide appropriate career paths, our system must be capable of clustering diverse data using the K-means learning algorithm. The K-means algorithm is a type of unsupervised learning that clusters data according to their similarities. Our system will utilize this algorithm to group learners' interests, strengths, and weaknesses into distinct career paths.
+- **Bias:** The A.I. Career Guide could favour certain career options due to biased training data, which could lead to unfair recommendations.
+  
+- **Lack of user engagement:** If the recommendations are not accurate, learners might not find the software useful, which will lead to a low adoption rate.
+  
+- **Market Changes:** Changes in the job market due to technological advancement or economic changes might cause the software to give less relevant recommendations.
+  
+- **Security:** If the system is not properly secured, it could be hacked and give out false information or engage in malicious activities.
 
-### Non-functional Requirements
-Non-functional requirements define how the system should behave in terms of its performance and usability.
+### 9. TOOLS
+▪ **Version control:** GitHub
+▪ **Programming Language:** Python
+▪ **Design Software:** Figma
+▪ **Coding platform:** Visual Studio code
 
-**NFR1:** ***Reliability/feedback mechanism:*** The feedback and learning loop are a cycle of learning and improving skills. Our system provides users with the utmost benefit by consistently acquiring new information about the job market and skills through a learning loop. This guarantees that the feedback given is always current and relevant. The feedback loop will ensure timely feedback is provided to users.
+### 11. MODEL
+Our system will use the Natural Language Processing (NLP) model for optimum performance and also to understand and interact with users.
 
-**NFR2:** ***Security:*** The system will use data encryption which will ensure the users' data and career-related data are encrypted to prevent unauthorized access. 
-The system will employ the secure communications protocol (HTTPS) to transmit data between the software and the user's device, thus preventing any risk of data exposure.
+▪ **Collecting and Preparing Data:** Compile a dataset that is relevant to educational pathways, job descriptions and user queries.
 
-**NFR3:** ***Fallback:*** If the system encounters an error, it will provide a fallback response. The response will include an apology and a request for the user to provide an alternative solution or rephrase the data they previously entered.
+▪ **Text classification for user intents:** Label user query categories and train the model to recognise the learner's intents. 
 
-**NFR4:** ***Feedback and Learning Loop:*** The system will ask users to provide feedback on the accuracy and helpfulness of the response, enabling the system to improve.
+▪ **Text Generation for Responses:** Use ruled-based responses to ensure that responses are informative, concise, and contextually relevant.
 
-## 4. CONSTRAINTS
--	**Data Availability:** The accuracy of career recommendations will depend on the quality and quantity of data available for various career options. 
--	**Algorithm Complexity:** The balance of clustering and classification algorithms with real-time performance can be a challenge. 
--	**limited learning:** The AI Career Guide's ability to learn can be limited by the scope of data it's trained on and may not immediately capture changing job market trends.
--	**Interpersonal Evaluation:** Assessing interpersonal skills accurately through algorithms can be complex, as some skills require careful consideration to fully understand.
+▪ **User Texting and Evaluation:** Test the chatbot with real users to gather feedback and evaluate the chatbot’s performance to identify areas for 
+improvement.
 
-## 5. RISKS
--	**Inaccurate recommendations:** If the clustering and classification algorithms are not properly trained, the software could provide irrelevent career suggestions. 
--	**Bias:** The AI Career Guide could favour certain career options due to biassed training data, which could lead to unfair recommendations.
--	**Lack of user engagement:** If the recommendations are not accurate, learners might not find the software useful, which will lead to a low adoption rate.
--	**Market Changes:** Changes in the job market due to technological advancement or economic changes might cause the software to give recommendations that are less relevant.
+▪ **Personalisation:** The User data will be learned to personalise the required and close-range response. This will be considered using past events, 
+searches and future interactions.
 
-## 6. PROBLEM DEFINITION
-The AI Career Guide has been developed to tackle the pressing issue of career exploration among high school learners. The existing traditional career guidance events have contributed to a rise in school dropouts as learners feel demotivated due to the limited career options presented to them. These events cater only to a select group of individuals, neglecting the diverse interests and aspirations of many learners. 
+### 11. TIMES SERIES ANALYSIS ON DATA
 
-In contrast, the AI career guide holds the potential to revolutionise the education industry. By utilising unsupervised machine learning algorithms, Natural Processing Language (NPL) and Neural Network Model, the system encompasses a wide array of career libraries. This enables the system to effectively group careers based on learners' specific interests and provides them with a comprehensive range of options to consider. 
+## 12. SOLUTION TECHNIQUES
 
-One of the key advantages of the AI career guide is its ability to offer educational content that equips learners with valuable information about various career paths. By doing so, it empowers learners to make informed decisions and pursue their goals with confidence. 
+To develop the A.I. Career Guide Chatbot several solution techniques can be utilised. Our system will use the following techniques:
 
-Moreover, the AI career guide incorporates personalised recommendations based on learners' individual strengths and aptitudes. Through advanced algorithms, the system can analyse learners' profiles and provide tailored career suggestions that align with their unique attributes, fostering a sense of purpose and direction.
+▪ **Neural Network Models (NNM)**
+▪ **Recommender Systems (R.S.)**
+▪ **Natural Language Processing (NLP)**
 
-## 7. POSTER
-![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/AI%20Career%20Guide%20Software%20Poster.png)
+NLP techniques have been used to understand and interpret learner's questions and provide relevant and accurate responses, we have also used NNM to facilitate more precise and intricate analysis of learner data, these models can be used for tasks like career path prediction, skills development assessments and identifying emerging job trends. Recommender systems have been utilised to personalise job and career suggestions according to learner's interests, skills, and preferences.
+
+### 13. NATURAL LANGUAGE PROCESSING (NLP)
+
+▪ The NLP component of the A.I. Career Guide Chatbot will enable the system to understand and interpret natural language queries from learners, extract 
+important information, and provide relevant responses and guidance. 
+
+▪ It also assists the Chatbot with maintaining content during learner queries or conversations, which makes the learner feel like they are getting assistance 
+from a human career guide advisor.
+
+▪ Utilising the NLP has also assisted in text summarisation which assists in summarising long texts such as industry reports, job descriptions or 
+educational content, This has assisted the Chatbot in providing accurate and easy-to-understand information, which will save them time and stress in 
+understanding complex information.
+
+### 14. DEEP LEARNING
+
+**Recurrent Neural Networks**
+
+The RNNs were used to sequence modelling the Chatbot applications which has enabled it to understand and generate text sequences in a conversational context. 
+
+**RNN has offered our Chatbot several advantages such as:**
+
+▪ Understanding context
+▪ Capturing sequential dependencies
+▪ Generating Language Responses
+▪ Adapting to different conversation lengths
+
+**The RNN in our Career Guide Chatbot consists of three main layers which are:**
+
+▪ Input Layers 
+▪ Recurrent Layers 
+▪ Output Layers 
+
+### 14.1. Input Layers
+
+- The input layer receives the input data, which can be a learner's question 
+or query about their career.
+- It encodes the input information and prepares it for processing in the 
+subsequent layers.
+
+### 14.2. Recurrent Layers
+
+- This processes sequential data by maintaining a hidden state that captures information from previous time steps. 
+- In the career guide, Chatbot will take the encoded input from the input layer and process it to understand the meaning and context of the 
+learner's career-related question.
+- It checks the history of previous inputs and uses them to generate relevant responses and utilises recurrence in the network to capture temporal 
+dependencies and contextual information.
+
+### 14.3. Output Layers
+
+- The output layers take the information from the hidden layers and generate the responses to the learner’s questions.
+- They generate responses based on the processed information from the recurrent layer.
+
+### 14.4. Model Training
+
+▪ We implemented our RNN using Microsoft Azure cloud service and locally with Google TensorFlow.
+▪ Both frameworks achieved similar performance and allowed users to manually define the RNN with Python.
+▪ The advantage of Azure is that it allows the user to simultaneously run several RNN training processes with different data or network parameters and easily compares their performance. 
+▪ The training process is faster in Azure compared to training with computers using a Core i5 CPU. 
+▪ The Tensor Flow runs locally, though the training speed depends on the hardware and it is impractical simultaneously to train several models on a single computer. 
+▪ All the trained weights are accessible, which makes Tensor Flow suitable for model analysis. 
+▪ We used Azure for RNN model design and TensorFlow for experimental evaluation.
+
+### REFERENCES
+
+**1. Books**
+
+1.1. "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville: This book covers various deep learning topics, including RNNs, in detail. It provides comprehensive explanations and examples of RNN architectures and their applications.
+
+1.2. "Natural Language Processing with Python" by Steven Bird, Ewan Klein, and Edward Loper: This book provides a practical introduction to NLP using 
+the Python programming language. It covers various NLP techniques, including tokenisation, part-of-speech tagging, parsing, and sentiment analysis
+
+1.3. "Pattern Recognition and Machine Learning" by Christopher M. Bishop: This textbook covers various machine learning algorithms, including clustering techniques like K-means. It provides a comprehensive overview of the algorithm and its implementation.
+
+**2. Links**
+
+www.mygreatlearning.com/blog/what-is-machine-learning/
+   
+www.ibm.com/topics/recurrent-neural-networks#:~:text=the%20next%20step-
+,What%20are%20recurrent%20neural%20networks%3F,data%20or%20time%20
+series%20data
