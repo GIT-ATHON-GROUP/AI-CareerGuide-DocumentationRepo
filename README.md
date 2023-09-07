@@ -132,6 +132,8 @@ searches and future interactions.
 
 ### 11. TIMES SERIES ANALYSIS ON DATA
 
+![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/.github/workflows/time.png)
+
 ## 12. SOLUTION TECHNIQUES
 
 To develop the A.I. Career Guide Chatbot several solution techniques can be utilised. Our system will use the following techniques:
