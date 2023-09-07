@@ -30,7 +30,8 @@ One of the key advantages of the A.I. career guide is its ability to offer educa
   
 The career guide will assist learners with technical skills that are not covered in the conventional education systems, covering various industries.
 
-- **Cost** 
+- **Cost**
+  
 The system will assist disadvantaged learners who are not capable of attending career guidance expose.
 
 ## 3. 3. BENEFITS OF SOLVING THE PROBLEM
