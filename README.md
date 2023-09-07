@@ -107,24 +107,26 @@ suggestions.
 - **Security:** If the system is not properly secured, it could be hacked and give out false information or engage in malicious activities.
 
 ### 9. TOOLS
-▪ **Version control:** GitHub
-▪ **Programming Language:** Python
-▪ **Design Software:** Figma
-▪ **Coding platform:** Visual Studio code
+- **Version control:** GitHub
+
+- **Programming Language:** Python
+  
+- **Design Software:** Figma
+  
+- **Coding platform:** Visual Studio code
 
 ### 11. MODEL
 Our system will use the Natural Language Processing (NLP) model for optimum performance and also to understand and interact with users.
 
-▪ **Collecting and Preparing Data:** Compile a dataset that is relevant to educational pathways, job descriptions and user queries.
+- **Collecting and Preparing Data:** Compile a dataset that is relevant to educational pathways, job descriptions and user queries.
 
-▪ **Text classification for user intents:** Label user query categories and train the model to recognise the learner's intents. 
+- **Text classification for user intents:** Label user query categories and train the model to recognise the learner's intents. 
 
-▪ **Text Generation for Responses:** Use ruled-based responses to ensure that responses are informative, concise, and contextually relevant.
+- **Text Generation for Responses:** Use ruled-based responses to ensure that responses are informative, concise, and contextually relevant.
 
-▪ **User Texting and Evaluation:** Test the chatbot with real users to gather feedback and evaluate the chatbot’s performance to identify areas for 
-improvement.
+- **User Texting and Evaluation:** Test the chatbot with real users to gather feedback and evaluate the chatbot’s performance to identify areas for improvement.
 
-▪ **Personalisation:** The User data will be learned to personalise the required and close-range response. This will be considered using past events, 
+- **Personalisation:** The User data will be learned to personalise the required and close-range response. This will be considered using past events, 
 searches and future interactions.
 
 ### 11. TIMES SERIES ANALYSIS ON DATA
@@ -133,21 +135,23 @@ searches and future interactions.
 
 To develop the A.I. Career Guide Chatbot several solution techniques can be utilised. Our system will use the following techniques:
 
-▪ **Neural Network Models (NNM)**
-▪ **Recommender Systems (R.S.)**
-▪ **Natural Language Processing (NLP)**
+- **Neural Network Models (NNM)**
+
+- **Recommender Systems (R.S.)**
+
+- **Natural Language Processing (NLP)**
 
 NLP techniques have been used to understand and interpret learner's questions and provide relevant and accurate responses, we have also used NNM to facilitate more precise and intricate analysis of learner data, these models can be used for tasks like career path prediction, skills development assessments and identifying emerging job trends. Recommender systems have been utilised to personalise job and career suggestions according to learner's interests, skills, and preferences.
 
 ### 13. NATURAL LANGUAGE PROCESSING (NLP)
 
-▪ The NLP component of the A.I. Career Guide Chatbot will enable the system to understand and interpret natural language queries from learners, extract 
+- The NLP component of the A.I. Career Guide Chatbot will enable the system to understand and interpret natural language queries from learners, extract 
 important information, and provide relevant responses and guidance. 
 
-▪ It also assists the Chatbot with maintaining content during learner queries or conversations, which makes the learner feel like they are getting assistance 
+- It also assists the Chatbot with maintaining content during learner queries or conversations, which makes the learner feel like they are getting assistance 
 from a human career guide advisor.
 
-▪ Utilising the NLP has also assisted in text summarisation which assists in summarising long texts such as industry reports, job descriptions or 
+- Utilising the NLP has also assisted in text summarisation which assists in summarising long texts such as industry reports, job descriptions or 
 educational content, This has assisted the Chatbot in providing accurate and easy-to-understand information, which will save them time and stress in 
 understanding complex information.
 
@@ -159,46 +163,57 @@ The RNNs were used to sequence modelling the Chatbot applications which has enab
 
 **RNN has offered our Chatbot several advantages such as:**
 
-▪ Understanding context
-▪ Capturing sequential dependencies
-▪ Generating Language Responses
-▪ Adapting to different conversation lengths
+- Understanding context
+  
+- Capturing sequential dependencies
+  
+- Generating Language Responses
+  
+- Adapting to different conversation lengths
 
 **The RNN in our Career Guide Chatbot consists of three main layers which are:**
 
-▪ Input Layers 
-▪ Recurrent Layers 
-▪ Output Layers 
+- Input Layers
+  
+- Recurrent Layers
+  
+- Output Layers 
 
 ### 14.1. Input Layers
 
-- The input layer receives the input data, which can be a learner's question 
-or query about their career.
-- It encodes the input information and prepares it for processing in the 
-subsequent layers.
+- The input layer receives the input data, which can be a learner's question or query about their career.
+  
+- It encodes the input information and prepares it for processing in the subsequent layers.
 
 ### 14.2. Recurrent Layers
 
-- This processes sequential data by maintaining a hidden state that captures information from previous time steps. 
-- In the career guide, Chatbot will take the encoded input from the input layer and process it to understand the meaning and context of the 
-learner's career-related question.
-- It checks the history of previous inputs and uses them to generate relevant responses and utilises recurrence in the network to capture temporal 
-dependencies and contextual information.
+- This processes sequential data by maintaining a hidden state that captures information from previous time steps.
+  
+- In the career guide, Chatbot will take the encoded input from the input layer and process it to understand the meaning and context of the learner's career related question.
+  
+- It checks the history of previous inputs and uses them to generate relevant responses and utilises recurrence in the network to capture temporal dependencies and contextual information.
 
 ### 14.3. Output Layers
 
 - The output layers take the information from the hidden layers and generate the responses to the learner’s questions.
+  
 - They generate responses based on the processed information from the recurrent layer.
 
 ### 14.4. Model Training
 
-▪ We implemented our RNN using Microsoft Azure cloud service and locally with Google TensorFlow.
-▪ Both frameworks achieved similar performance and allowed users to manually define the RNN with Python.
-▪ The advantage of Azure is that it allows the user to simultaneously run several RNN training processes with different data or network parameters and easily compares their performance. 
-▪ The training process is faster in Azure compared to training with computers using a Core i5 CPU. 
-▪ The Tensor Flow runs locally, though the training speed depends on the hardware and it is impractical simultaneously to train several models on a single computer. 
-▪ All the trained weights are accessible, which makes Tensor Flow suitable for model analysis. 
-▪ We used Azure for RNN model design and TensorFlow for experimental evaluation.
+- We implemented our RNN using Microsoft Azure cloud service and locally with Google TensorFlow.
+  
+- Both frameworks achieved similar performance and allowed users to manually define the RNN with Python.
+  
+- The advantage of Azure is that it allows the user to simultaneously run several RNN training processes with different data or network parameters and easily compares their performance.
+  
+- The training process is faster in Azure compared to training with computers using a Core i5 CPU.
+   
+- The Tensor Flow runs locally, though the training speed depends on the hardware and it is impractical simultaneously to train several models on a single computer.
+   
+- All the trained weights are accessible, which makes Tensor Flow suitable for model analysis.
+  
+- We used Azure for RNN model design and TensorFlow for experimental evaluation.
 
 ### REFERENCES
 
