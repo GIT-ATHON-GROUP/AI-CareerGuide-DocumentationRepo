@@ -215,6 +215,4 @@ the Python programming language. It covers various NLP techniques, including tok
 
 www.mygreatlearning.com/blog/what-is-machine-learning/
    
-www.ibm.com/topics/recurrent-neural-networks#:~:text=the%20next%20step-
-,What%20are%20recurrent%20neural%20networks%3F,data%20or%20time%20
-series%20data
+www.ibm.com/topics/recurrent-neural-networks#:~:text=the%20next%20step-,What%20are%20recurrent%20neural%20networks%3F,data%20or%20time%20series%20data
