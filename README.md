@@ -44,6 +44,12 @@ The system will assist disadvantaged learners who are not capable of attending c
   
 - **Reducing Cost:** If a learner does not have the time, funds, and access to a career guidance counsellor, the system will be a perfect alternative
 
+## POSTER
+
+**Poster1**                                                                                      |                                        **Poster2**
+:-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:
+![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/Poster1.jpeg):|:![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/Poster2.jpeg)
+
 ## 5. THE PURPOSE FOR OUR AI SOLUTION
 
 The purpose of the A.I. Career Guide software is to help learners make informed career-related decisions based on their skills, preferences, strengths and 
