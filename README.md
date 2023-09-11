@@ -34,7 +34,7 @@ The career guide will assist learners with technical skills that are not covered
   
 The system will assist disadvantaged learners who are not capable of attending career guidance expose.
 
-## 3. 3. BENEFITS OF SOLVING THE PROBLEM
+## 3. BENEFITS OF SOLVING THE PROBLEM
 
 - **Availability:** The system will and should be available all day every day, This will enable students and Learners to be able to access it at any given time and it will also give the learners the assistance and support they will need.
   
@@ -44,11 +44,11 @@ The system will assist disadvantaged learners who are not capable of attending c
   
 - **Reducing Cost:** If a learner does not have the time, funds, and access to a career guidance counsellor, the system will be a perfect alternative
 
-## POSTER
+## 4. POSTER
 
 **Poster1**                                                                                      |                                        **Poster2**
 :-------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:
-![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/Poster1.jpeg):|:![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/Poster2.jpeg)
+![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/Poster1.jpeg)|![](https://github.com/GIT-ATHON-GROUP/AI-CareerGuide-DocumentationRepo/blob/lupin/Poster2.jpeg)
 
 ## 5. THE PURPOSE FOR OUR AI SOLUTION
 
@@ -122,7 +122,7 @@ suggestions.
   
 - **Coding platform:** Visual Studio code
 
-### 11. MODEL
+### 10. MODEL
 Our system will use the Natural Language Processing (NLP) model for optimum performance and also to understand and interact with users.
 
 - **Collecting and Preparing Data:** Compile a dataset that is relevant to educational pathways, job descriptions and user queries.
