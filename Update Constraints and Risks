@@ -1,0 +1,27 @@
+## 8. CONSTRAINTS AND RISKS
+### 8.1. Constraints
+- **Data Availability:** The accuracy of career recommendations will depend on the quality and quantity of data available for various career options.
+  
+- **Algorithm Complexity:** The balance of clustering and classification algorithms with real-time performance can be a challenge.
+  
+- **Limited learning:** The A.I. Career Guide's ability to learn can be limited by the scope of data it's trained on and may not immediately capture changing 
+job market trends.
+
+- **Interpersonal Evaluation:** Assessing interpersonal skills accurately through algorithms can be complex, as some skills require careful consideration to 
+fully understand.
+
+- **Budget:** The hardware required for the development of the system may be costly.
+  
+- **Time:** The Chabot is a complicated system and requires a long time to be able to function best.
+  
+### 8.2. Risks
+- **Inaccurate recommendations:** If the clustering and classification algorithms are not properly trained, the software could provide irrelevant career 
+suggestions.
+
+- **Bias:** The A.I. Career Guide could favour certain career options due to biased training data, which could lead to unfair recommendations.
+  
+- **Lack of user engagement:** If the recommendations are not accurate, learners might not find the software useful, which will lead to a low adoption rate.
+  
+- **Market Changes:** Changes in the job market due to technological advancement or economic changes might cause the software to give less relevant recommendations.
+  
+- **Security:** If the system is not properly secured, it could be hacked and give out false information or engage in malicious activities.
