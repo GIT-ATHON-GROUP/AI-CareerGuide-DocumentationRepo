@@ -1,0 +1,22 @@
+### 9. TOOLS
+- **Version control:** GitHub
+
+- **Programming Language:** Python
+  
+- **Design Software:** Figma
+  
+- **Coding platform:** Visual Studio code
+
+### 10. MODEL
+Our system will use the Natural Language Processing (NLP) model for optimum performance and also to understand and interact with users.
+
+- **Collecting and Preparing Data:** Compile a dataset that is relevant to educational pathways, job descriptions and user queries.
+
+- **Text classification for user intents:** Label user query categories and train the model to recognise the learner's intents. 
+
+- **Text Generation for Responses:** Use ruled-based responses to ensure that responses are informative, concise, and contextually relevant.
+
+- **User Texting and Evaluation:** Test the chatbot with real users to gather feedback and evaluate the chatbot’s performance to identify areas for improvement.
+
+- **Personalisation:** The User data will be learned to personalise the required and close-range response. This will be considered using past events, 
+searches and future interactions.
